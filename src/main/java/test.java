@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class test {
@@ -14,8 +13,6 @@ public class test {
         input = input.replaceAll("[0-9]", "");
 
         System.out.printf("Original String: %s%n", input);
-
-        char[] chars = input.toCharArray();
 
         for (int i = 0; i < input.length(); i++) {
             System.out.println(input.charAt(i) + " : " + input.chars().count());
